@@ -49,4 +49,22 @@ footer {
             }
         }
     }
+    @include responsive(1070px) {
+        .container {
+            flex-direction: column;
+            .rightSide { 
+                align-items: center;
+            }
+        }
+    }
+
+    @include responsive(580px) { 
+        .container { 
+            .leftSide {
+                text-align: center; 
+                flex-direction: column;
+                gap: 7rem;
+            }
+        }
+    }
 }
