@@ -1,0 +1,59 @@
+.inputStyle { 
+    padding: 19px 39px;
+    gap: 64px;
+
+    margin-right: 1.2rem;
+
+    width: 27.3rem;
+    height: 5.4rem;
+    background: #EFEFEF;
+    border: 1px solid #E8E8E8;
+    border-radius: 39px;
+    font-weight: 700;
+
+    
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #18171D;
+}
+
+.card { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 50px;
+    width: 33.5rem;
+    height: 54rem;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    text-align: center;
+    .text { 
+       p { 
+        color: black;
+       }
+       
+    }
+    .bottonText { 
+        p,h5 {
+                color: black;
+            }
+       }
+}
+
+.contact-form { 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 52px 50px;
+    width: 100%;
+    max-width: 91rem;
+    gap: 45px;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+   }

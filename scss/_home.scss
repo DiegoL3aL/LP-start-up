@@ -1,0 +1,284 @@
+.hero {
+    background: url('../assets/background.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    padding-top: 26rem;
+
+   .container {
+        padding: 8rem 0px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .main-text { 
+            text-align: center;
+            margin-bottom: 8remrem;
+            h3 { 
+                margin-bottom: 1.7rem;
+            }
+            h4 {
+                margin: 0 auto;
+                width: 100%;
+                max-width: 42.9rem;
+                margin-bottom: 1.7rem;
+            }
+            h1 {
+                margin-bottom: 2.7rem ;
+            }
+        }
+        button { 
+            margin-bottom: 11.4rem;
+        }
+   }
+}
+
+.feature {
+    padding: 9.3rem 0;
+    .container { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 129rem;
+        .mainText {
+            text-align: center;
+            margin-bottom: 12.8rem;
+            h3 { 
+                margin-bottom: 1.7rem;
+            }
+            h2 { 
+                margin-bottom: 2.7rem;
+            }
+
+        }
+        .imageInfo { 
+            display: flex;
+            max-width: 129rem;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+            .imgscreen {
+                display: flex;
+                img { 
+                    height: 530.98px;
+                    
+                }
+            }
+            .infos {
+                display: flex;
+                flex-direction: column;
+                gap: 9.5rem;
+                .info {
+                    width: 26rem;
+
+                    .headIfo { 
+                        display: flex;
+                        gap: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.light { 
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 8rem 0;
+        .main-text {
+            text-align: center;
+            margin-bottom: 9rem;
+             h3 { 
+                margin-bottom: 1.7rem;
+             }
+             h2 { 
+                margin-bottom: 2.7rem;
+             }
+           
+        }
+        .buttons { 
+            display: flex;
+            gap: 1.6rem;
+        }
+    }
+}
+
+.light-form { 
+    .container { 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 140rem;
+        padding: 11rem 3rem;
+        .mainText { 
+            .top {
+                margin-bottom: 1.7rem;
+            }
+            .middle { 
+                margin-bottom: 3.4rem;
+            }
+            .input { 
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}
+
+.partner { 
+    .container { 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 8rem 0;
+        .mainTitle { 
+            text-align: center;
+            margin-bottom: 11rem;
+            h2 { 
+                margin-bottom: 2.7rem; 
+            }
+            h4 { 
+                width: 100%;
+                max-width: 30rem;
+            }
+        }
+        .imagesPartner { 
+            margin-bottom: 10rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6.7rem;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+    }
+}
+
+.testimonials { 
+    .container {
+        @include flex(column, center, center);
+        padding: 10rem 0;
+
+        h2 { 
+            margin-bottom: 9rem;
+        }
+        .cards {
+            gap: 6rem;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 8rem;
+        }
+    }
+}
+
+.pricing { 
+    .container{
+        padding: 10rem 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 28rem;
+        .priceText {
+            h1{ 
+                margin-bottom: 2.6rem;
+            } 
+           p { 
+                width: 100%;
+                max-width: 34rem;
+           } 
+        }
+        .side {
+            width: 100%;
+            max-width: 24rem;
+            display: flex;
+            flex-direction: column;
+            .priceValue { 
+                margin-bottom: 3rem;
+                h4 { 
+                margin-bottom: 1.6rem;
+                }
+                .price {
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+                }
+
+            }
+            .botton {
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}
+
+.contact { 
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10rem 0;
+        .mainText { 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 7.4rem;
+        h2 { 
+            margin-bottom: 2.7rem;
+        }
+        h4 { 
+            width: 100%;
+            max-width: 299rem;
+            margin-bottom: 7.4rem;
+        }
+        .socialMedia-ico { 
+            display: flex;
+            gap: 3.2rem;
+        }
+       } 
+       .map { 
+        display: flex;
+        flex-direction: column;
+        gap: 6rem;
+        margin-bottom: 6rem;
+        .address { 
+            display: flex;
+            justify-content: space-between;
+            .box {
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                max-width: 21rem;
+                gap: 2rem;
+            }
+        }
+       }
+       .contact-form {
+       Input { 
+            padding: 19px 20px;
+            gap: 47px;
+            width: 100%;
+            height: 54px;
+            background: #F5F5F5;
+            border: 1px solid #E8E8E8;
+            border-radius: 39px;
+        }
+        textarea { 
+            padding: 19px 20px;
+            gap: 47px;
+            height: 19rem;
+            width: 100%;
+            height: 20rem;
+            background: #F5F5F5;
+            border: 1px solid #E8E8E8
+        }
+       }
+    }
+}

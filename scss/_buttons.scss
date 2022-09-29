@@ -1,0 +1,78 @@
+.btn-primary { 
+    height: 6.5rem;
+    padding: 0 5.8rem;
+    border-radius: 3.5rem;
+    background-color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 3.3rem;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #2091F9;
+}
+
+
+
+.btn-secondary { 
+    height: 6.5rem;
+    padding: 0 5.8rem;
+    border-radius: 3.5rem;
+    background-color: #2091F9;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 3.3rem;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color:white
+}
+
+.btn-secondary-small { 
+    height: 5.4rem;
+    padding: 0 5.8rem;
+    border-radius: 3.5rem;
+    background-color: #2091F9;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 3.3rem;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color:white
+}
+
+
+.btn-sub { 
+    height: 5.4rem;
+    padding: 0 5.8rem;
+    border-radius: 35px;
+    background-color: white;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #2091F9;
+    transition: .3s all;
+    &:hover { 
+        color: white;
+        background-color: #10589c;
+
+    }
+}
+
+.btn-line { 
+    height: 6.5rem;
+    padding: 0 5.8rem;
+    border-radius: 3.5rem;
+    background-color: rgba(255, 255, 255, 0);
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 3.3rem;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: white;
+    border: 1px solid #FFFFFF
+}
