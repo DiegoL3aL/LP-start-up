@@ -30,19 +30,44 @@ header {
                 }
             }
         }
+      
         
     }
     .mobile-header {
         display: none;
     }
     @include responsive(1280px) {
+        padding: 0;
         .container { 
             display: none;
         }
         .mobile-header { 
             display: flex;
             padding:  3.5rem;
+            justify-content: space-between;
+        }
+        .side { 
+            display: flex;
+            align-items: center;
+            gap: 2.7rem;
+            span {  
+                img {
+                    display: flex;
+                    width: 5rem;
+                }
+            }
         }
 
     }
+
+    @include responsive(600px) { 
+        .mobile-header  { 
+            .side{ 
+                button { 
+                    display: none;
+                }
+            }
+        }
+    }
+  
 }
